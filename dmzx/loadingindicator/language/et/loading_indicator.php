@@ -1,12 +1,14 @@
 <?php
 /**
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 *
 * Loading indicator extension for the phpBB Forum Software package.
 *
-* @copyright (c) 2014 dmzx <http://www.dmzx-web.net>; This file contains Estonian language, which made by phpBBeesti.com
+* @copyright (c) 2014 dmzx <http://www.dmzx-web.net>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
 */
+
 /**
 * DO NOT CHANGE
 */
@@ -14,10 +16,12 @@ if (!defined('IN_PHPBB'))
 {
 	exit;
 }
+
 if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
 }
+
 // DEVELOPERS PLEASE NOTE
 //
 // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
@@ -33,6 +37,7 @@ if (empty($lang) || !is_array($lang))
 // Some characters you may want to copy&paste:
 // ’ » “ ” …
 //
+
 $lang = array_merge($lang, array(
-   'LOADINGINDICATOR'   => 'Laadin...',
+   'LOADINGINDICATOR'   => 'Laen...',
 ));
